@@ -79,4 +79,5 @@ At this point, you should have created an index, gotten your credentials and sho
 ### 6. Additional Links and Resources
 
 Sentence Transformers - https://www.sbert.net/
+
 Open AI Embedding Cookbooks - https://github.com/openai/openai-cookbook/tree/main/examples
