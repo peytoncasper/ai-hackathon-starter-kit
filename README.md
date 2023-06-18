@@ -1,6 +1,6 @@
 # 🛣️ The Fork in the Road 🍴
 
-Building an application leveraging Language Learning Models (LLMs) poses an important decision to make. If you're developing an application using off-the-shelf OpenAI API capabilities like querying GPT-3.5 or GPT-4, you can comfortably rely on the Node.js example application. If you're looking to go down a more custom path, then the example application provides a better starting point.
+Building an application leveraging Language Learning Models (LLMs) poses an important decision to make. If you're developing an application using off-the-shelf OpenAI API capabilities like querying GPT-3.5 or GPT-4, you can comfortably rely on the Node.js example application. If you're looking to go down a more custom path, then the Python example application provides a better starting point.
 
 ## 1️⃣ Node.js-React App: Your Fast Lane 🚀
 
