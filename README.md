@@ -1,29 +1,27 @@
+# 🛣️ The Fork in the Road 🍴
 
+Building an application leveraging Language Learning Models (LLMs) poses an important decision to make. If you're developing an application using off-the-shelf OpenAI API capabilities like querying GPT-3.5 or GPT-4, you can comfortably rely on the Node.js example application. If you're looking to go down a more custom path, then the example application provides a better starting point.
 
-## Theres a Fork in the Road
+## 1️⃣ Node.js-React App: Your Fast Lane 🚀
 
-There is an important decision that you need to make when building out an application that leverages LLMs. If you're building an application that 
-only leverages the off the shelf OpenAI API capabilities such as querying GPT-3.5 or GPT-4 then you can easily leverage the Node.js example application
-that is based on Vercel's AI app.
+This starter app serves as an excellent base for web apps leveraging readily available APIs such as OpenAI, ElevenLabs, and Pinecone. 
 
-1. Leveraging the Node.js-React App Example
+📦 What's in the box? 
+A nimble Node.js Express app that embeds data with OpenAI, stores that info in Pinecone, and offers a simple frontend to return top results for a given query. 
 
-This starter app works great for web apps that can leverage off the shelf APIs like OpenAI, ElevenLabs, and Pinecone.
+## 2️⃣ Python-React App: The Road Less Traveled 🌳
 
-A simple starter app is provided that provides a Node.js Express app which embeds data with OpenAI and stores that information in Pinecone as well as providing a simple frontend for returning top results for a given query.
+If your ambitions are set towards leveraging Open Source Software (OSS) models such as Falcon LLM, models on HuggingFace, LangChain, or custom models that aren't wrapped neatly in an API, then this is your starting point. This approach requires more legwork but grants you maximum flexibility in implementation.
 
-2. Leveraging the Python-React App Example
+A Python backend is a robust choice for a hackathon setting, it frees you from the nitty-gritty details of tokenizing input, pickling the model, and more. Thanks to Python libraries like HuggingFace, most of this is already handled for you.
 
-This starter app is a better fit if you're looking to leverage OSS models such as Falcon LLM, models on HuggingFace, LangChain or simply leverage models that
-aren't wrapped by a nice API then you're going to need to start here. This approach provides more flexibility in the implementation, but is required 
-because custom models need to be loaded into memory and exposed via an API. 
+🎁 What's in the box? 
+A streamlined Python Flask App that exposes Falcon LLM via an API endpoint, coupled with a React App allowing users to submit a question and receive a response from Falcon LLM.
 
-Leveraging a Python backend is the simplest approach for a Hackthon, because you don't have to worry about lower level details of how to tokenize your input, pickeling the model or anything else. For the most part, this is taken care of Python libraries such as HuggingFace and others.
+# 🎈 Extras 🌈
 
-As a result, a simple starter app is provided that provides a Python Flask App which exposes Falcon LLM via an API endpoint along with a React App that lets the user type in a question and receive a response from Falcon LLM. 
+In addition to the two starter apps, we've included some extra integrations for your convenience. These currently cover the following topics:
 
-## Extras
+1️⃣ **Pinecone** 🌲
 
-In addition to providing two simple skeletons for getting started, there are additional folders for various integrations that are typically used. These currently cover the following topics.
-
-1. Pinecone
+Stay tuned for more exciting extras! ⏳
