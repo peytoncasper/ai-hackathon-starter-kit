@@ -19,6 +19,16 @@ The frontend application will run on localhost:3000, but thanks to the proxy con
 
 ### Backend
 
+#### Environment
+
+The backend requires the following environment variables to be set.
+
+```
+export OPENAI_API_KEY=""
+export PINECONE_ENVIRONVMENT=""
+export PINECONE_API_KEY=""
+```
+
 To start the backend server, navigate to the backend directory in your terminal and run:
 
 ```bash
@@ -43,3 +53,16 @@ npm start
 
 The full-stack application will now be available at localhost:3001.
 
+## Docker
+
+### Build
+
+```bash
+docker build -t node-react-app .
+```
+
+### Run 
+
+```bash
+docker run -p 3001:3001 -e OPENAI_API_KEY="" -e PINECONE_ENVIRONMENT="" -e PINECONE_API_KEY="" node-react-app
+```
